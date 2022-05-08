@@ -1,6 +1,7 @@
-body{
+body, html{
     background: #F3F5FC;
     margin: auto;
+    height: 100%;
     width: 940px;
     font-family: 'Radio Canada', sans-serif;
     }
