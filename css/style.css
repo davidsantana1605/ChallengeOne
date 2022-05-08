@@ -1,0 +1,180 @@
+body{
+    background: #F3F5FC;
+    margin: auto;
+    width: 940px;
+    font-family: 'Radio Canada', sans-serif;
+    }
+
+.logo{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    }
+
+.switch{
+    position: absolute;
+    top: 48px;
+    left: 200px;
+    height: auto;
+    width: 50px;
+}
+
+.text-input{
+    background-color: #F3F5FC;
+    border: none;
+    position: absolute;
+    left: 180px;
+    top: 168px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0A3871;
+    outline: none;
+    size: 640px;
+    height: 20em;
+    width: 700px;
+}
+
+    
+.buttons{
+    display: flex;
+    padding: 0px;
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 180px;
+    top: 850px;
+    justify-content: center;
+}
+
+
+.texto-encima{
+    display: flex;
+    width: 50%;
+    position: absolute;
+    top: 85%;
+    right: 263%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #495057;
+    opacity: 0.8;
+    }
+
+.btn1{
+    padding: 24px;
+    position: static;
+    width: 328px;
+    height: 67px;
+    left: 0px;
+    top: 0px;
+    background: #0A3871;
+    border-radius: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 24px;
+    position: static;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.btn2{
+    padding: 24px;
+    position: static;
+    width: 328px;
+    height: 67px;
+    left: 352px;
+    top: 0px;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    box-sizing: border-box;
+    border-radius: 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 24px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #0A3871;
+}
+
+.advertencia{
+    position: relative;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    font-family: "Arial";
+    color: #495057;
+    left: 20%;
+    top: 83%;
+}
+
+.msg h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+}
+
+.msg p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+}
+
+.msg-box{
+    size: 640px;
+    height: 90%;
+    width: 350px;
+    position: absolute;
+    background: white;
+    left: 950px;
+    top: 50px;
+    border-radius: 20px;
+    box-shadow: 0px 24px 32px -8px rgb(0 0 0 / 8%);
+    border-radius: 32px;
+    }
+
+.msg-title{
+    text-align: center;
+    color: #0A3871;
+}
+
+.msg-result, .text-input-salida{
+    position: absolute;
+    top: 62px;
+    border: none;
+    outline: none;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: #495057;
+    padding: 10px;
+    height: 26em;
+    width: 13em;
+}
+
+#btn-copiar{
+    position: relative;    
+    top: 111%;
+    left: auto;
+    right: 23px;
+}

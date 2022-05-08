@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+    <head>
+        <meta charset="UTF-8">
+        <title>Encriptador y Desencriptador</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>        
+        <main>
+        <img class="logo" src="img/Logo.png">
+        <section class="form-box">
+            <form action="">
+                <textarea class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Ingrese el texto aqui"></textarea>
+            </form>
+            <div class="buttons">
+                <input class="btn1" type="button" value="Encriptar" id="btn-encriptar">
+                <input class="btn2" type="button" value="Desencriptar" id="btn-desencriptar">
+            </div>
+        </section>
+        <section class="msg-box">
+            <div class="msg-result" id="mostrarTodo">
+                <h1 class="msg-title">Mensaje</h1>
+                <textarea class="text-input-salida" type="text" id="texto" placeholder="Por favor ingrese un texto"></textarea>
+                <input class="btn2" type="button" value="Copiar" id="btn-copiar" onclick="copiar();">
+            </div>
+        </section>
+        <script src="scripts/script.js"></script>
+        <script src="scripts/copiar.js"></script>
+        </main>
+    </body>
+</html>
